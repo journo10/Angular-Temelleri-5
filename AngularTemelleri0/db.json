@@ -1,0 +1,301 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "name": "Bilgisayar",
+      "price": 2500,
+      "categoryId": 1,
+      "description": "Asus ZenBook",
+      "imageUrl": "https://images.unsplash.com/photo-1511385348-a52b4a160dc2?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=782&q=80"
+    },
+    {
+      "id": 4,
+      "name": "Bilgisayar",
+      "price": 2500,
+      "categoryId": 1,
+      "description": "Asus ZenBook",
+      "imageUrl": "https://images.unsplash.com/photo-1544006659-f0b21884ce1d?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80"
+    },
+    {
+      "id": 6,
+      "name": "Mouse",
+      "price": 50,
+      "categoryId": 3,
+      "description": "A4 Tech",
+      "imageUrl": "https://images.unsplash.com/photo-1619334084350-b093f0a9b40e?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80"
+    },
+    {
+      "id": 7,
+      "name": "Tablet Pc",
+      "price": 1000,
+      "categoryId": 2,
+      "description": "Samsung Galaxy 7",
+      "imageUrl": "https://images.unsplash.com/photo-1471279136892-55af5dc6895f?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTl8fHRhYmxldHxlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"
+    },
+    {
+      "id": 8,
+      "name": "Mouse",
+      "price": 40,
+      "categoryId": 3,
+      "description": "Asus A3",
+      "imageUrl": "https://images.unsplash.com/photo-1598978554684-31ee8d544884?ixid=MnwxMjA3fDB8MHxzZWFyY2h8ODJ8fG1vdXNlfGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"
+    },
+    {
+      "id": 9,
+      "name": "Tablet Pc",
+      "price": 950,
+      "categoryId": 2,
+      "description": "Samsung Galaxy 9",
+      "imageUrl": "https://images.unsplash.com/photo-1607292803026-3b9d9b3d0fe7?ixid=MnwxMjA3fDB8MHxzZWFyY2h8NjB8fHRhYmxldHxlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"
+    },
+    {
+      "id": 10,
+      "name": "Mouse",
+      "price": 30,
+      "categoryId": 3,
+      "description": "Asus B3",
+      "imageUrl": "https://images.unsplash.com/photo-1554576575-a4e7b6e8409d?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTAzfHxtb3VzZXxlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"
+    },
+    {
+      "id": 11,
+      "name": "Tablet Pc",
+      "price": 750,
+      "categoryId": 2,
+      "description": "Samsung Galaxy XZ",
+      "imageUrl": "https://images.unsplash.com/photo-1533310266094-8898a03807dd?ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mzl8fHRhYmxldHxlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"
+    },
+    {
+      "id": 12,
+      "name": "Bilgisayar",
+      "price": 3000,
+      "categoryId": 1,
+      "description": "Casper",
+      "imageUrl": "https://images.unsplash.com/photo-1588702547923-7093a6c3ba33?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1500&q=80"
+    },
+    {
+      "id": 13,
+      "name": "Tablet Pc",
+      "price": 1100,
+      "categoryId": 2,
+      "description": "Samsung Galaxy 11",
+      "imageUrl": "https://images.unsplash.com/photo-1599009433234-8d350e1e0942?ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mzh8fHRhYmxldHxlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"
+    },
+    {
+      "id": 14,
+      "name": "Mouse",
+      "price": 35,
+      "categoryId": 3,
+      "description": "Asus C1",
+      "imageUrl": "https://images.unsplash.com/photo-1613091252604-dd0746e2f358?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTA2fHxtb3VzZXxlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"
+    },
+    {
+      "id": 15,
+      "name": "Bilgisayar",
+      "price": 2750,
+      "categoryId": 1,
+      "description": "Lenova",
+      "imageUrl": "https://images.unsplash.com/photo-1496181133206-80ce9b88a853?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTF8fGxhcHRvcHxlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"
+    },
+    {
+      "id": 16,
+      "name": "Tablet Pc",
+      "price": 1125,
+      "categoryId": 2,
+      "description": "Samsung Galaxy XYZ",
+      "imageUrl": "https://images.unsplash.com/photo-1502404679462-d669245fc482?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1500&q=80"
+    },
+    {
+      "id": 17,
+      "name": "Mouse",
+      "price": 55,
+      "categoryId": 3,
+      "description": "Asus P4",
+      "imageUrl": "https://images.unsplash.com/photo-1585336261176-3e8d838e86e3?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTI3fHxtb3VzZXxlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"
+    },
+    {
+      "id": 18,
+      "name": "Tablet Pc",
+      "price": 825,
+      "categoryId": 2,
+      "description": "Samsung Galaxy Z",
+      "imageUrl": "https://images.unsplash.com/photo-1522204523234-8729aa6e3d5f?ixid=MnwxMjA3fDB8MHxzZWFyY2h8NDd8fHRhYmxldHxlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"
+    },
+    {
+      "id": 19,
+      "name": "Bilgisayar",
+      "price": 3250,
+      "categoryId": 1,
+      "description": "Asus",
+      "imageUrl": "https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTB8fGxhcHRvcHxlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"
+    },
+    {
+      "id": 20,
+      "name": "Tablet Pc",
+      "price": 600,
+      "categoryId": 2,
+      "description": "Samsung Galaxy Y",
+      "imageUrl": "https://images.unsplash.com/photo-1620144376627-00318418fefc?ixid=MnwxMjA3fDB8MHxzZWFyY2h8NTJ8fHRhYmxldHxlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"
+    },
+    {
+      "id": 22,
+      "name": "Bilgisayar",
+      "price": 655,
+      "categoryId": 1,
+      "description": "Acer",
+      "imageUrl": "https://images.unsplash.com/photo-1485988412941-77a35537dae4?ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8Y29tcHV0ZXJzfGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"
+    },
+    {
+      "id": 26,
+      "name": "Mouse",
+      "price": 135,
+      "categoryId": 3,
+      "description": "Logitech",
+      "imageUrl": "https://images.unsplash.com/photo-1527864550417-7fd91fc51a46?ixid=MnwxMjA3fDB8MHxzZWFyY2h8NXx8bW91c2V8ZW58MHx8MHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"
+    },
+    {
+      "id": 27,
+      "name": "Mouse",
+      "price": 85,
+      "categoryId": 3,
+      "description": "Razer",
+      "imageUrl": "https://images.unsplash.com/photo-1613141411244-0e4ac259d217?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTB8fG1vdXNlfGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"
+    },
+    {
+      "id": 28,
+      "name": "Telefon",
+      "price": 2200,
+      "categoryId": 4,
+      "description": "Samsung GS",
+      "imageUrl": "https://images.unsplash.com/photo-1585060282215-39a72f82385c?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTN8fGNlbGwlMjBwaG9uZXxlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"
+    },
+    {
+      "id": 29,
+      "name": "Telefon",
+      "price": 2400,
+      "categoryId": 4,
+      "description": "LG",
+      "imageUrl": "https://images.unsplash.com/photo-1585060544812-6b45742d762f?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTJ8fGNlbGwlMjBwaG9uZXxlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"
+    },
+    {
+      "id": 30,
+      "name": "Telefon",
+      "price": 2500,
+      "categoryId": 4,
+      "description": "Vestel",
+      "imageUrl": "https://images.unsplash.com/photo-1610548822783-33fb5cb0e3a8?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTZ8fGNlbGwlMjBwaG9uZXxlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"
+    },
+    {
+      "id": 32,
+      "name": "Telefon",
+      "price": 1750,
+      "categoryId": 4,
+      "description": "Huawei",
+      "imageUrl": "https://images.unsplash.com/photo-1560617544-b4f287789e24?ixid=MnwxMjA3fDB8MHxzZWFyY2h8NXx8Y2VsbCUyMHBob25lfGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"
+    },
+    {
+      "id": 36,
+      "name": "Telefon",
+      "price": 2900,
+      "categoryId": 4,
+      "description": "LG 5",
+      "imageUrl": "https://images.unsplash.com/photo-1584433144760-1946bb52e9a4?ixid=MnwxMjA3fDB8MHxzZWFyY2h8NDZ8fGNlbGwlMjBwaG9uZXxlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"
+    },
+    {
+      "id": 37,
+      "name": "Fotoğraf Makinesi",
+      "price": 1600,
+      "categoryId": 5,
+      "description": "Canon",
+      "imageUrl": "https://images.unsplash.com/photo-1613631883052-454579eb648f?ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8Y2FtZXJhc3xlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"
+    },
+    {
+      "id": 38,
+      "name": "Fotoğraf Makinesi",
+      "price": 1650,
+      "categoryId": 5,
+      "description": "Sony",
+      "imageUrl": "https://images.unsplash.com/photo-1519638831568-d9897f54ed69?ixid=MnwxMjA3fDB8MHxzZWFyY2h8OXx8Y2FtZXJhc3xlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"
+    },
+    {
+      "id": 46,
+      "name": "Tripot",
+      "price": 65,
+      "categoryId": 6,
+      "description": "Benro",
+      "imageUrl": "https://images.unsplash.com/photo-1587204760600-77d8d18d143e?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTN8fHRyaXBvZHxlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"
+    },
+    {
+      "id": 50,
+      "name": "Tripot",
+      "price": 110,
+      "categoryId": 6,
+      "description": "Fancier",
+      "imageUrl": "https://images.unsplash.com/photo-1583547990766-92e483caa5ce?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MzR8fHRyaXBvZHxlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"
+    },
+    {
+      "id": 51,
+      "name": "Tripot",
+      "price": 75,
+      "categoryId": 6,
+      "description": "Manfrotto",
+      "imageUrl": "https://images.unsplash.com/photo-1520317383650-9152696da971?ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mzh8fHRyaXBvZHxlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"
+    },
+    {
+      "id": 52,
+      "name": "Tripot",
+      "price": 80,
+      "categoryId": 6,
+      "description": "Benro Y",
+      "imageUrl": "https://images.unsplash.com/photo-1616754708941-716095bd0a71?ixid=MnwxMjA3fDB8MHxzZWFyY2h8NTB8fHRyaXBvZHxlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"
+    },
+    {
+      "name": "Fotoğraf Makinesi",
+      "price": 666,
+      "description": "Güzel bir makine",
+      "imageUrl": "https://images.pexels.com/photos/3744196/pexels-photo-3744196.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
+      "categoryId": "5",
+      "id": 53
+    }
+  ],
+  "categories": [
+    {
+      "id": 1,
+      "name": "Bilgisayar"
+    },
+    {
+      "id": 2,
+      "name": "Tablet"
+    },
+    {
+      "id": 3,
+      "name": "Mouse"
+    },
+    {
+      "id": 4,
+      "name": "Telefon"
+    },
+    {
+      "id": 5,
+      "name": "Fotoğraf Makinesi"
+    },
+    {
+      "id": 6,
+      "name": "Tripot"
+    }
+  ],
+  "users": [
+    {
+      "email": "m@gmail.com",
+      "password": "12345",
+      "id": 1
+    }
+  ],
+  "registers": [
+    {
+      "name": "M",
+      "email": "m@gmail.com",
+      "password": "12345",
+      "id": 1
+    }
+  ]
+}

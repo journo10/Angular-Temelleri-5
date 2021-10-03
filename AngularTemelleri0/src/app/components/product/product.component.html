@@ -1,0 +1,36 @@
+<div
+  *ngIf="spinnersData == false"
+  class="spinner-border text-dark mt-2"
+  role="status"
+>
+  <span class="visually-hidden">Yükleniyor...</span>
+</div>
+
+<div class="d-flex mt-2">
+  <label for="filterText" class="form-label"></label>
+  <input
+    [(ngModel)]="filterText"
+    class="form-control me-sm-2"
+    type="text"
+    placeholder="Ara"
+  />
+  <button class="btn btn-dark my-2 my-sm-0" type="submit">Ara</button>
+</div>
+<div *ngIf="filterText" class="mt-1">
+  Şu an aradığınız ürün <strong>{{ filterText }}</strong>
+</div>
+
+<div *ngFor= "let p of products | filterPipe:filterText" class="card">
+  <img src="{{ p.imageUrl }}" class="card-img-top" alt="..." />
+  <div class="card-body">
+    <h3 class="card-title">{{ p.name | titlecase }}</h3>
+    <h4 class="card-title">Fiyat: {{ p.price | currency }}</h4>
+    <h5 class="card-title text-danger">
+      KDV'li Fiyat: {{ p.price | kdvPipe: 18 | currency }}
+    </h5>
+    <p class="card-text">{{ p.description | uppercase }}</p>
+    <button (click)="addToCard(p)" type="button" class="btn btn-dark btn-sm me-2">Sepete Ekle</button>
+    <a routerLink="/products/{{p.id}}" class="btn btn-sm btn-warning me-2 ">Detay</a>
+    <button (click)="removeCard(p)" type="button" class="btn btn-danger btn-sm ">Sil</button>
+    </div>
+</div>

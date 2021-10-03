@@ -1,0 +1,25 @@
+<body class="text-center">
+    <main class="form-signin">
+      <form [formGroup]="registerForm" (ngSubmit)="register()">
+        <h1 class="h3 mb-3 fw-normal">Kayıt Ol</h1>
+        <div class="form-floating">
+            <input formControlName="name" type="text" class="form-control mt-1" id="floatingName" placeholder="Name">
+            <small class="text-danger" *ngIf="registerForm.get('name').invalid && registerForm.get('name').touched">*Ad Soyad zorunludur</small>
+            <label for="floatingInput">Name</label>
+          </div> 
+        <div class="form-floating">
+          <input formControlName="email" type="email" class="form-control mt-1" id="floatingInput" placeholder="name@example.com">
+          <small class="text-danger" *ngIf="registerForm.get('email').invalid && registerForm.get('email').touched">*Email zorunludur</small>
+          <label for="floatingInput">Email</label>
+        </div> 
+        <div class="form-floating">
+          <input formControlName="password" type="password" class="form-control mt-1" id="floatingPassword" placeholder="Password">
+          <small class="text-danger" *ngIf="registerForm.controls['password'].touched && registerForm.hasError('required','password')">*Şifre zorunludur</small>
+          <label for="floatingPassword">Şifre</label>
+        </div>
+        <button [disabled]="registerForm.invalid" class="w-100 btn btn-dark" type="submit">Kayıt Ol</button>
+      </form>
+    </main>
+</body> 
+
+

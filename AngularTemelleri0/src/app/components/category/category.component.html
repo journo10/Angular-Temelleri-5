@@ -1,0 +1,18 @@
+<ul class="list-group mt-2 my-auto">
+  <li routerLink="/products" class="list-group-item text-white bg-dark">
+    Tüm Ürünler
+  </li>
+</ul>
+
+<ul class="list-group mt-2 my-auto">
+  <li
+    *ngFor="let c of categories"
+    (click)="tiklaCategory(c)"
+    routerLink="/products/category/{{ c.id }}"
+    [class]="categoryActiveClass(c)"
+  >
+    {{ c.name }}
+  </li>
+</ul>
+
+<h3 *ngIf="routerCategory">{{ routerCategory.name }} seçtin.</h3>
